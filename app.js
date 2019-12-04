@@ -1,9 +1,9 @@
-// Require express and create an instance of it
+ // Require express and create an instance of it
 var express = require('express');
-const fetch = require("node-fetch");
 var cors = require('cors')
 var http = require('http')
 var app = express();
+const fetch = require("node-fetch");
 
 // on the request to root (localhost:3000/)
 app.use(cors())
